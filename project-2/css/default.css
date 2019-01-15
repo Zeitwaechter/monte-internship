@@ -1,0 +1,63 @@
+body {
+  border-top : 0.2rem solid #4e4261;
+  margin     : 0 auto;
+  max-width  : 60em;
+}
+
+* {
+  box-sizing : border-box;
+}
+
+.mouse-pointer {
+  cursor : pointer;
+}
+
+#heading {
+  background-color : #f9f9f9;
+  padding          : 0.5rem;
+  text-align       : center;
+}
+
+.hide {
+  display : none;
+}
+
+.non-visible {
+  height   : 0;
+  overflow : hidden;
+}
+
+.bg-color-light-grey {
+  background-color : #f9f9f9;
+}
+
+.bg-color-grey {
+  background-color : #efefef;
+}
+
+.bg-color-dark-grey {
+  background-color : #e6e6e6;
+}
+
+.btn {
+  padding          : 0.5rem;
+  border           : 0.1rem solid #1b6637;
+  background-color : #3adb76;
+  border-radius    : 0.4rem;
+}
+
+.text-center {
+  text-align : center;
+}
+
+.advantage {
+  width            : 33%;
+  padding          : 0.5rem;
+  display          : inline-block;
+  text-align       : center;
+  background-color : #ffffff;
+}
+
+.container {
+  padding : 0.5rem;
+}
