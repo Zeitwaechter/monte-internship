@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/formate.css">
+  <link rel="shortcut icon" href="media/favicon.png"  />
 </head>
 <body>
 
@@ -14,18 +15,24 @@
 
 <main>
   <!-- header -->
-  <section id="heading" class="text-center">
-    <header>
-      <h2>
-        Verdiene ganz einfach Geld mit Tubevertise
-      </h2>
-    </header>
+  <section id="heading" class="text-center background-image-block" style="background-image: url('media/00-background-heading.png');">
 
-    <a href="http://v3.tubevertise.de/portal/login">
-      <button class="btn mouse-pointer">
-        CTA-Button
-      </button>
-    </a>
+    <div class="relative">
+      <div class="text-center" style="width: 100%; position: absolute; top: 40%;">
+        <h2 class="heading-format">
+          Verdiene ganz einfach Geld mit Tubevertise
+        </h2>
+      </div>
+
+      <div class="text-center" style="width: 100%; position: absolute; bottom: 20px;">
+        <a href="http://v3.tubevertise.de/portal/login">
+          <button class="btn mouse-pointer" style="">
+            CTA-Button
+          </button>
+        </a>
+      </div>
+    </div>
+
   </section>
 
   <!-- Advantages -->
@@ -63,14 +70,35 @@
       </header>
 
       <article>
-        <p>
-          Wählen sie zwischen einer von 4 Kampangen
-          ohne einnen Vertrag abzuschließen.
-        </p>
-        <p>
-          Wählen sie den Content Typ, ihre bezahlung und
-          schreiben sie ggf. einen Bewerbungstext.
-        </p>
+        <div class="row">
+          <div class="col">
+            <div class="card rounded">
+              <div class="background-image-block rounded shadow" style="height: 20rem; background-image: url('media/01-campaigns-1.png')">
+              </div>
+
+              <div class="card-content rounded">
+                <p>
+                  Wählen sie zwischen einer von 4 Kampangen
+                  ohne einnen Vertrag abzuschließen.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card rounded">
+              <div class="background-image-block rounded shadow" style="height: 20rem; background-image: url('media/02-campaigns-2.png')">
+              </div>
+
+              <div class="card-content rounded">
+                <p>
+                  Wählen sie den Content Typ, ihre bezahlung und
+                  schreiben sie ggf. einen Bewerbungstext.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
 
@@ -78,7 +106,7 @@
     <section class="container">
       <header class="text-center">
         <h3>
-          Auszahlung
+          Kooperationen
         </h3>
       </header>
 
