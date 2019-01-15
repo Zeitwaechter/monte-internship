@@ -1,6 +1,6 @@
 # Landing Page 2
 
-# Informelle Websites
+## Informelle Websites
 - TubeOne:
   - https://tubeone.com/
   - YT Network: https://www.youtube.com/user/tubeonenetworks
@@ -13,9 +13,12 @@
 - Marketing:
   - [Wikipedia - Was ist ein Lead?](https://de.wikipedia.org/wiki/Leadgenerierung)
 
-# Themenkomplex TubeOne
+## Themenkomplex TubeOne
   - Es soll eine Landing Page zu dem Portfolio von TubeOne veröffentlicht werden
   - Dabei sollen wieder die Interessen des Influencers abgedeckt werden, damit die Landing Page dessen Interessen matched.
+  
+## Wichtig
+  - Die Seite soll Responsive sein
 
 # Struktur:
   - [Statt des Bilds](https://codepen.io/YusukeNakaya/pen/XyOaBj) AIDA
