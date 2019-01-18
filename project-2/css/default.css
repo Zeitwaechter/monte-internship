@@ -15,6 +15,20 @@ body {
   height: 38rem;
 }
 
+#heading .noe>span:first-child {
+  color: #ffffff;
+}
+
+#heading .noe>span:last-child {
+  color: #000000;
+}
+
+.claim {
+  position: absolute;
+  top: 5rem;
+  width: 100%;
+}
+
 .relative {
   position: relative;
   height: 100%
@@ -542,10 +556,65 @@ body {
 
 .no-underline a {
   text-decoration: none;
-  color          : #000000;
+  color: #000000;
 }
 
 .no-underline a:hover {
-  color          : #B6C94B;
+  color: #B6C94B;
   transition: color 0.2s linear;
+}
+
+.adjust-horizontal {
+  margin: 0 auto;
+}
+
+.margin-relative-div {
+  margin: 6rem;
+}
+
+.footer {
+  padding: 1rem 8rem;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 576px) {
+  .claim {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+  }
+
+  .footer {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .margin-relative-div {
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .col {
+    display: block;
+    width: 100%;
+    flex-basis: unset;
+  }
+
+  .footer {
+    padding: 1rem 3rem;
+    font-size: 0.8rem;
+  }
+
+  .margin-relative-div {
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  /****/
+}
+
+@media (max-width: 1200px) {
+  /****/
 }
