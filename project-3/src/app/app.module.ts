@@ -8,10 +8,12 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PostsPage } from '../pages/posts/posts';
 
+import { PlacesService } from '../services/places.service';
+
 @NgModule({
   declarations: [
     MyApp,
-    HomePage, 
+    HomePage,
     PostsPage
   ],
   imports: [
@@ -27,7 +29,8 @@ import { PostsPage } from '../pages/posts/posts';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
+    PlacesService
   ]
 })
-export class AppModule {}
+export class AppModule { }

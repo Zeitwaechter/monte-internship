@@ -6,10 +6,13 @@
       </button>
     </ion-buttons>
     <ion-title>
-      Ionic Blank
+      AWESOME Maxi Sahne
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+  <ul>
+    <li *ngFor="let place of places">{{ place.title }}</li>
+  </ul>
 </ion-content>
