@@ -16,5 +16,5 @@ export class PostsPage {
     this.placesService.addPlace(value);
     this.navCtrl.pop();
   }
-
+  
 }

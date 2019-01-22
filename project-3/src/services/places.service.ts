@@ -20,5 +20,5 @@ export class PlacesService {
           return this.places.slice();
         }
       );
-  }
+   }
 }

@@ -10,6 +10,9 @@ import { HomePage } from '../pages/home/home';
 import { PostsPage } from '../pages/posts/posts';
 
 import { PlacesService } from '../services/places.service';
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 /**
  * Storage:
@@ -39,5 +42,14 @@ import { PlacesService } from '../services/places.service';
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     PlacesService
   ]
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+  ],
+  declarations: [
+    AppComponent,
+  ],
+  bootstrap: [AppComponent]
+
 })
 export class AppModule { }

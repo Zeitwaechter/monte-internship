@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { PostsPage } from '../posts/posts';
+import { Http } from '@angular/http';
 
 import { PlacesService } from '../../services/places.service';
 
