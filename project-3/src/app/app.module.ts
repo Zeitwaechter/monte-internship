@@ -29,6 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot()
+    HttpClientModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,14 +43,6 @@ import { HttpClientModule } from '@angular/common/http';
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     PlacesService
   ]
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-  ],
-  declarations: [
-    AppComponent,
-  ],
-  bootstrap: [AppComponent]
-
 })
+
 export class AppModule { }

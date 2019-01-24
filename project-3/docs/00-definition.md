@@ -9,6 +9,10 @@
   - [GitHub Repo](https://github.com/typicode/json-server)
 - [ionic framework - Video Tutorial](https://www.youtube.com/watch?v=YwSzqeBchEc)
 
+##
+file:///D:/monty-praktikum/project-1/index.html
+file:///D:/monty-praktikum/project-2/index.html
+
 ## ToDos
 - Data/API
 	- [] GET of all Users

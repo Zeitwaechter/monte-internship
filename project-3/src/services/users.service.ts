@@ -3,12 +3,11 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class ConfigService {
+  private usersApiConfig = 'assets/api/users.json';
+
   constructor(private http: HttpClient) { }
-}
 
-usersApiConfig = 'assets/api/users.json';
-
-getUsers() {
-  return this.http.get(this.usersApiConfig);
-
+  getUsers() {
+    return this.http.get(this.usersApiConfig);
+  }
 }
