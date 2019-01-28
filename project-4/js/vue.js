@@ -20,7 +20,7 @@ var app = new Vue({
      * @returns {void}
      */
     addTodo() {
-      this.todolists.push({
+      this.todolist.push({
         text: this.newtodolist
       });
     },
@@ -29,7 +29,7 @@ var app = new Vue({
      * @returns {void}
      */
     removeTodo(index) {
-      this.todolists.splice(index, 1);
+      this.todolist.splice(index, 1);
     },
 
     /**

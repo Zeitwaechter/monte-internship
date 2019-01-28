@@ -20,7 +20,6 @@
 - Responsive
 - Icons to be taken from [Font Awesome](https://fontawesome.com/start), [Icons](https://fontawesome.com/icons)
 - [Vue.js - Introduction](https://vuejs.org/v2/guide/)
-- [vue-localstorage - How To Use](https://medium.com/vuejoy/localstorage-with-vue-localstorage-1dca4804c2b5)
 
 ## Views
 - Home

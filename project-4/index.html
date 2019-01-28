@@ -18,9 +18,9 @@
 
     <div class="container">
       <ul>
-        <li class="list-group-item" v-for="(todolist, index) in todolist" v-if="0 < todolist.length">
-          {{ todolist.text }}
-          <button class="btn-sm float-right" @click="removeTodo(index)"><span class="fa fa-minus"></span></button>
+        <li class="list-group-item" v-for="(todo, index) in todolist" v-if="0 < todolist.length">
+          {{ todo.text }}
+          <button class="btn btn-sm btn-danger float-right" @click="removeTodo(index)"><span class="fa fa-minus"></span></button>
         </li>
       </ul>
     </div>
@@ -35,13 +35,13 @@
 
         <div class="input-group mt-3 row">
           <div class="col-sm-6">
-            <button class="btn btn-primary btn-block" :disabled="!isFormFilled" @click="addTodo">
+            <button class="btn btn-primary btn-sm btn-block" :disabled="!isFormFilled" @click="addTodo">
               <i class="fa fa-plus"></i>
             </button>
           </div>
 
           <div class="col-sm-6">
-            <button class="btn btn-success btn-block" @click="saveTodoState">
+            <button class="btn btn-success btn-sm btn-block" @click="saveTodoState">
               <i class="fa fa-save"></i>
             </button>
           </div>
