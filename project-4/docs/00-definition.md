@@ -24,3 +24,8 @@
 
 ## Views
 - Home
+
+## Useful Things
+- @click="methodName"
+- v-for="(todo, index) in todos"
+- v-model="message"
